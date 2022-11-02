@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-AcademicServicesApplication<academic-services>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.ibik.academicservices.academicservices.AcademicServicesApplication",
+      "projectName": "academic-services",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
