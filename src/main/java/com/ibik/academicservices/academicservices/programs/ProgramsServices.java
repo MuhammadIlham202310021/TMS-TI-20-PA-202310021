@@ -23,7 +23,7 @@ public class ProgramsServices{
         return programsRepo.findAll();
     }
 
-    public void removoOne(int id){
+    public void removeOne(int id){
         programsRepo.deleteById(id);
     }
 }

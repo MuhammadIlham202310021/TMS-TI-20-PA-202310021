@@ -23,7 +23,14 @@ public class StudentServices {
         return studentRepo.findAll();
     }
 
-    public void removoOne(int id){
+    public void removeOne(int id){
         studentRepo.deleteById(id);
+    }
+    // public Iterable<Student> findByName(String name){
+    //     return studentRepo.findStudentByName(name);
+    // }
+
+    public Iterable<Student> findByName(String name) {
+        return studentRepo.findStudentByName("%" + name + "%");
     }
 }
